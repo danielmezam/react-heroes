@@ -1,0 +1,13 @@
+.hero-card {
+  width: 20% !important;
+}
+
+.hero-img {
+  max-width: 100% !important;
+}
+
+@media screen and (max-width: 769px) {
+  .hero-card {
+    width: 80% !important;
+  }
+}

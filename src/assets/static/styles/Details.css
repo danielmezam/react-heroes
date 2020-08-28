@@ -1,0 +1,32 @@
+.hero-details-container {
+  width: 80%;
+  margin: auto;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.hero-details-section {
+  width: 45%;
+}
+
+.hero-card-details {
+  width: 60% !important;
+}
+
+.hero-img-details {
+  max-width: 100% !important;
+}
+
+@media screen and (max-width: 769px) {
+  .hero-card-details {
+    width: 80% !important;
+  }
+  .hero-details-container {
+    width: 100%;
+    flex-direction: column;
+  }
+  .hero-details-section {
+    width: 100%;
+  }
+}
