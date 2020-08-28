@@ -102,7 +102,7 @@ const HeroDetails = ({ match }) => {
               />
               <Card.Body>
                 <Card.Title>{details.name}</Card.Title>
-                <Card.Text>publisher: {details.biography.publisher}</Card.Text>
+                <Card.Text>Empresa: {details.biography.publisher}</Card.Text>
               </Card.Body>
             </Card>
           </div>
